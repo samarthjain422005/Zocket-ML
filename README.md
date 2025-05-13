@@ -75,7 +75,7 @@ configure(api_key="YOUR_GEMINI_API_KEY")
 jupyter notebook
 ```
 
----
+Open the `.ipynb` notebook and follow the steps sequentially.
 
-```
+---
 
