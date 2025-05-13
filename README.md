@@ -28,13 +28,13 @@ Built in a single **Jupyter Notebook**.
 
 ```mermaid
 graph TD
-    A[🌐 Input: Website URL] --> B[🕷️ Scrape Text with Selenium]
-    B --> C[🧹 Preprocess & Clean Text]
-    C --> D[📄 Split into Overlapping Chunks]
-    D --> E[🔗 Sentence Transformer Embeddings]
-    E --> F[🗂️ Store in FAISS Vector DB]
-    F --> G[📑 Per-chunk Analysis with Gemini]
-    G --> H[🧠 Final Summary Synthesis with Gemini]
-    H --> Z[📤 Output: Website Summary]
+    A[Input: Website URL] --> B[Scrape Text with Selenium]
+    B --> C[Preprocess & Clean Text]
+    C --> D[Split into Overlapping Chunks]
+    D --> E[Sentence Transformer Embeddings]
+    E --> F[Store in FAISS Vector DB]
+    F --> G[Per-chunk Analysis with Gemini]
+    G --> H[Final Summary Synthesis with Gemini]
+    H --> Z[Output: Website Summary]
 
-    
+
