@@ -1,0 +1,9 @@
+selenium
+langchain
+sentence-transformers
+faiss-cpu
+google-generativeai
+chromedriver-autoinstaller
+html5lib
+beautifulsoup4
+numpy
