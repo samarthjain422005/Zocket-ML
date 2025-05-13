@@ -36,41 +36,6 @@ graph TD
     F --> G[Per-chunk Analysis with Gemini]
     G --> H[Final Summary Synthesis with Gemini]
     H --> Z[Output: Website Summary]
-
-Here's the `README.md` in clean **Markdown format** with only:
-
-* ✅ Description
-* ✅ System architecture
-* ✅ Requirements and setup instructions
-
----
-
-````markdown
-# 🧠 Gemini + SentenceTransformer Web Summarizer
-
-This project summarizes any webpage using a combination of:
-
-- **Selenium** for scraping,
-- **Text preprocessing and chunking**,
-- **SentenceTransformer embeddings** stored in **FAISS**,
-- **Google Gemini Pro** for understanding and summarizing content.
-
-Implemented entirely in a single **Jupyter Notebook**, it outputs a structured and concise summary of the webpage content.
-
----
-
-## 🧩 System Architecture
-
-```mermaid
-graph TD
-    A[🌐 Input: Website URL] --> B[🕷️ Scrape with Selenium]
-    B --> C[🧹 Preprocess Text]
-    C --> D[✂️ Chunk Text (with Overlap)]
-    D --> E[🔗 Embed with SentenceTransformer]
-    E --> F[🗂️ Store in FAISS Vector DB]
-    F --> G[📑 Analyze Chunks via Gemini]
-    G --> H[🧠 Synthesize Final Summary]
-    H --> I[📤 Output: Structured Webpage Summary]
 ````
 
 ---
